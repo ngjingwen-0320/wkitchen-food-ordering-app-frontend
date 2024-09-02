@@ -116,7 +116,7 @@ export const useUpdateMyUser = () => {
     } = useMutation(updateMyUserRequest);
 
     if( isSuccess) {
-        toast.success("User profile updated successfully!");
+        toast.success("User profile updated successfully");
     }
 
     if (error) {
